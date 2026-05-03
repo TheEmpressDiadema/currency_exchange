@@ -1,0 +1,6 @@
+Создать необходимую базу данный:
+1. Таблица Currency(id int pk, code text not null, fullname text not null, sign text not null)
+2. Таблица ExchangeRate(id int pk, base_currency_id int fk not null, target_currency_id int fk not null, rate float not null)
+
+Создать слой Модели для взаимодействия с базой данных:
+1. 
