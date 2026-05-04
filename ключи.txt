@@ -1,8 +1,0 @@
-1.REST API
-2.MVC(S)
-3.HTTP
-4.GET, POST запросы, коды ответа
-5.hhtp.server
-6.JSON
-7.SQLITE
-8.Деплой
