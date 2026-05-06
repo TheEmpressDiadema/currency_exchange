@@ -1,5 +1,9 @@
 from dataclasses import dataclass
+from typing import NamedTuple
 
+class CodePair(NamedTuple):
+    base_currency_code: str
+    target_currency_code: str
 
 @dataclass
 class Currency:
