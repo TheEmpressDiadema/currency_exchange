@@ -3,7 +3,7 @@
 CREATE TABLE currency
 (
     id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-    code TEXT NOT NULL,
+    code TEXT UNIQUE NOT NULL,
     full_name TEXT NOT NULL,
     sign TEXT NOT NULL
 );

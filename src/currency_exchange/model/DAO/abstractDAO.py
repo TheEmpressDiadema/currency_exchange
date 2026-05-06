@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod 
 
+
 class AbstractDAO(ABC):
 
     _DATABASE_PATH = r"src\currency_exchange\data\db\data.db"
